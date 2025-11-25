@@ -27,8 +27,4 @@ scrape_configs:
       - targets: ['localhost:9093']
         labels:
           instance: 'agent-3'
-      # To add more agents, simply copy one of the target blocks
-      # and increment the port and instance label.
-      # - targets: ['localhost:9094']
-      #   labels:
-      #     instance: 'agent-4'
+      
